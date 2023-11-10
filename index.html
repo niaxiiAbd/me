@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Niaxi Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body>
+    
+<style>*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero .container{
+    display: flex;
+    align-items: center;
+}
+#hero{
+    background-color:black;
+    padding: 4rem 0;
+    border-bottom: 4px solid rgb(58, 58, 181);
+}
+.hero-content{
+    display: grid;
+    place-items: center;
+}
+.hero-pic{
+    border-radius: 6%;
+}
+.hero-content .hi-text{
+    color: yellow;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.hero-content .name-text{
+    color: white;
+}
+.hero-content h2{
+    color: white;
+}
+.hero-mentor{
+    font-size: 20px;
+}
+.hero-content .hero-mentor{
+    font-size: 4rem;
+    font-weight: bold;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens / / Adjust as needed */
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: orange;
+    }
+  }
+  .para{
+    margin-top: 5rem;
+    display:grid;
+   color: white;
+   font-size: 2rem;
+   place-items: center;
+   margin-left: 5rem;
+  }
+  #contact{
+    background-color: black;
+    height: 15rem;
+    width: 100%; 
+  }
+  #contact {
+    display: flex;
+    justify-content: center;
+   text-align: center;
+   padding-top: 3rem;
+  }
+  #contact .contact-me{
+justify-content: center;
+
+align-items: center;
+color: white;
+font-size: 4rem;
+  }
+  #links{
+    background-color: black ;
+  }
+  #links .link-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #links .link-text a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    
+  }
+  #links .link-text .insta i{
+    color: red;
+  }
+  #links .link-text .snapchat i{
+    color: yellow;
+  }
+
+  /* background-color: rgb(8, 8, 138) */
+  </style>
+
+<!-- HERO SECTION -->
+<section id="hero">
+<div class="container ">
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2  order-1">
+          <div class="hero-content">
+        
+            <h1><span class="hi-text">Hi</span>
+              <span class="name-text">,I am Abdullah Niazi</span></h1>  
+     <h2 class="hero-mentor">Your Mentor</h2>
+        </div>
+        <p class="para">I am a Computer Science student in UCP.I am ready to guide you in every aspect regarding Computer Science.I can also help you in choosing university for diferent fileds  of Technology.</p>
+      </div>
+        <div class="col-md-5 order-md-1 hero-pic  order-0">
+         <img src="hero.jpg" alt="hero pic" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto hero-pic animate_animated animate_bounceInLeft" width="600" height="600">
+        </div>
+      </div>
+</div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+<div class="contact-me">
+  <h1>Contact Me</h2>
+  <hr>
+  <h3 class="contact-text">You can contact me by clicking on the following Links:</h3>
+</div>
+
+</section>
+<!-- LINKS SECTION -->
+<section id="links">
+  <div class="link-text">
+  <a class="insta" href="https://instagram.com/niaxii_abd?igshid=Z282MWZmcm1oOGwz"> Instagram: <i class="fa-brands fa-instagram"></i></a><br>
+  <a class="facebook" href="https://www.facebook.com/niaziiabdullah?mibextid=ZbWKwL">FaceBook: <i class="fa-brands fa-facebook"></i></a><br>
+  <a class="snapchat" href="https://www.snapchat.com/add/abdullahniazii?share_id=O10QyseZ5D0&locale=en-US">Snapchat: <i class="fa-brands fa-square-snapchat"></i></i></a><br>
+  <a class="twitter" href=" https://x.com/niaxii_abd?t=cXJrno6geb8LrxwQ9d_T5g&s=08">Twitter: <i class="fa-brands fa-square-x-twitter"></i></a><br>
+  <a class="linkedin" href="https://www.linkedin.com/in/muhammad-abdullah-khan-a81403297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn: <i class="fa-brands fa-linkedin"></i></a>
+</div>
+</section> 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
